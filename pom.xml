@@ -29,6 +29,13 @@
                     </goals>
                 </execution>
             </executions>
+            <configuration>
+                <showWeaveInfo>true</showWeaveInfo>
+                <Xlint>warning</Xlint>
+                <forceAjcCompile>true</forceAjcCompile>
+                <complianceLevel>1.8</complianceLevel>
+                <parameters>true</parameters>
+            </configuration>
         </plugin>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
